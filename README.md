@@ -13,7 +13,7 @@ Every pixel represents a different object according to its RGB value.
 The starting zone is represented by a single figure(circle, square, etc.) consisting of pixels with an RGB value: (195,195,195).
 
 ##### Ending zone(s)
-Every ending zone is represented by a figure consistiong of pixels with an RGB value: (127,127,127).
+Every ending zone is represented by a figure consisting of pixels with an RGB value: (127,127,127).
 
 ##### Keys
 Every key is a colored square (20x20 pixels) and its color is not white or black and differs from the colors of the starting zone and the ending zone(s).
@@ -24,10 +24,10 @@ In the maze there may be zones colored with colors other than white, black and g
 **NOTE**: Besides the keys, any other zone in the maze can be of any shape and size.
 
 # Input
-Image file in *Bitmap* format that represents a correct maze.
+Image file in a *Bitmap* format that represents a correct maze.
 
 # Output
-Another image in *Bitmap* format that shows a possible path of escaping from the maze and a text file that describes the path as a sequence of points. The path between two points is a straight line connecting them and every line in the text file describes the coordinates of a given point.
+Another image in a *Bitmap* format that shows a possible path of escaping from the maze and a text file that describes the path as a sequence of points. The path between two points is a straight line connecting them and every line in the text file describes the coordinates of a given point.
 
 # Example
 * **INPUT**
